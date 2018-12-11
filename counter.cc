@@ -13,7 +13,7 @@ using namespace std;
 * @function countChar
 * @param ins - the filestream to read from
 * @return int - the number of characters
-*
+* @brief - finds the number of chars in a file 
 */
 int countChar(ifstream& ins){
     int count = 0;
@@ -32,6 +32,7 @@ int countChar(ifstream& ins){
 * @function countLines
 * @param ins - the filestream to read from
 * @return int - the number of lines
+* @brief - finds the number of lines in a file
 *
 */
 int countLines(ifstream& ins){
@@ -53,7 +54,7 @@ int countLines(ifstream& ins){
 * @param argc - the number of command line params
 *        argv - array to hold the params (?)
 * @return int - status code
-*
+* @brief - finds the number of lines and characters in a file
 */
 int main(int argc, char **argv){
     cout << "char and line counter" << endl;
